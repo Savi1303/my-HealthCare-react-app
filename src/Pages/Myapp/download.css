@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;700&display=swap');
+
+*{
+    font-family: "Mulish", sans-serif;
+}
+
+.down-section-img img {
+    width: 110%;
+}
+
+.app-section-img img {
+    width: 110%;
+    margin-left: 2vh;
+}
+
+.down-section-content {
+    margin: 10vh 0vh 0vh 23vh;
+}
+.down-section-content h2, .app-section-content h2 {
+    font-weight: 700;
+}
+.down-section-content p, .app-section-content p {
+    font-weight: 300;
+    color: #7D7987;
+}
+
+.app-section-content {
+    margin: 5vh 0vh 0vh 20vh;
+}
+
+.ar-btn {
+    background: #fff;
+    margin-left: 9px;
+    margin-bottom: 3px;
+}
+
+@media (max-height: 599px), screen and (orientation :portrait) {
+
+    .app-section-content, .down-section-content {
+        margin-left: 0vh;
+    }
+    
+    .down-section-img img {
+        width: 103%;
+    }
+    
+    .app-section-img img {
+        width: 106%;
+        margin-left: -1.5vh;
+    }
+
+}

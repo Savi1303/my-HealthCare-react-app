@@ -4,7 +4,8 @@
   "info": {
     "singularName": "admin",
     "pluralName": "admins",
-    "displayName": "Admin"
+    "displayName": "Admin",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -16,6 +17,9 @@
     },
     "adminId": {
       "type": "uid"
+    },
+    "userName": {
+      "type": "string"
     }
   }
 }
